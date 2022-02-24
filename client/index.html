@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Кодировка -->
+    <meta charset="UTF-8" />
+    <!-- Зоголовок страницы -->
+    <title>Добавление данных</title>
+  </head>
+  <body>
+    <!-- Основной контейнер -->
+    <div style="width: 800px; margin: 0 auto; padding-top: 50px">
+      <a href="./data.html">Сохраненные данные</a>
+      <hr />
+      <!-- Контейнер для информации о ID -->
+      <div>
+        <!-- Кнопка сброса ID-->
+        <button id="id_drop_button">Сбросить id</button>
+        <!-- Текст статуса -->
+        <span id="id_text">Нет id</span>
+      </div>
+      <hr />
+      <!-- Форма для отправки данных -->
+      <form id="generated_form">
+        <br />
+        <button type="submit">Сохранить</button>
+      </form>
+      <hr />
+    </div>
+    <!-- Подключение основного скрипта -->
+    <script src="./index.js"></script>
+    <!-- Подключение скрипта добавления данных -->
+    <script src="./save.js"></script>
+  </body>
+</html>

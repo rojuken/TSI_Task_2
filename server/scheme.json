@@ -1,0 +1,47 @@
+{
+  "name": "Показания счетчиков",
+  "items": [
+    {
+      "label": "Квартира",
+      "key": "flat",
+      "type": "string"
+    }
+  ],
+  "sub_items": [
+    {
+      "name": "Вода",
+      "items": [
+        {
+          "label": "Показания счетчика",
+          "key": "water",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Электричество",
+      "items": [
+        {
+          "label": "Тариф дневной",
+          "key": "electricity_day",
+          "type": "number"
+        },
+        {
+          "label": "Тариф ночной",
+          "key": "electricity_night",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Газ",
+      "items": [
+        {
+          "label": "Показания счетчика",
+          "key": "gas",
+          "type": "number"
+        }
+      ]
+    }
+  ]
+}

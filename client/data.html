@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Кодировка -->
+    <meta charset="UTF-8" />
+    <!-- Зоголовок страницы -->
+    <title>Добавление данных</title>
+  </head>
+  <body>
+    <!-- Основной контейнер -->
+    <div style="width: 800px; margin: 0 auto; padding-top: 50px">
+      <a href="./index.html">Добавить данные</a>
+      <hr />
+      <!-- Контейнер для информации о ID -->
+      <div>
+        <!-- Кнопка сброса ID -->
+        <button id="id_drop_button">Сбросить id</button>
+        <!-- Текст статуса -->
+        <span id="id_text">Нет id</span>
+      </div>
+      <hr />
+      <div id="all_meters_data"></div>
+    </div>
+    <!-- Подключение основного скрипта -->
+    <script src="./index.js"></script>
+    <!-- Подключение скрипта чтения данных -->
+    <script src="./read.js"></script>
+  </body>
+</html>
